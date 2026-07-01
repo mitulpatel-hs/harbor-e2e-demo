@@ -1,0 +1,10 @@
+schema_version = "9.9"
+
+[task]
+name = "harbor/malformed"
+
+[environment]
+os = "linux"
+
+[verifier]
+timeout_sec = 600
